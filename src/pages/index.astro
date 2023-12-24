@@ -1,0 +1,14 @@
+---
+import App from "../components/App";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <App
+    users={["Sebastian", "Arturo", "Santi", "Sofi 4", "Andrea", "Karla"]}
+    title="Sorteo niños - Fam Chimal"
+    client:load
+  />
+</Layout>
+
+<style></style>
