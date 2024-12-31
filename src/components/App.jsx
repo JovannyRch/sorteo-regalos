@@ -209,7 +209,7 @@ const App = ({ title = "Sorteo familiar" }) => {
         <div className="w-full mt-4">
           <div className="flex justify-center">
             <textarea
-              className="w-1/2 h-64 p-2 rounded border-2 border-gray-300 focus:outline-none focus:border-blue-500 text-black"
+              className="w-full md:w-1/2 h-64 p-2 rounded border-2 border-gray-300 focus:outline-none focus:border-blue-500 text-black"
               placeholder="Ingrese los participantes separados por coma"
               onChange={(e) => {
                 setInputUsers(e.target.value);
